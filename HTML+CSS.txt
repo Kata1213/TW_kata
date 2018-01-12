@@ -1,127 +1,58 @@
 10:04 2018/1/12
-ÏÖÔÚÀëÎÒ½»×÷ÒµÖ»Ê£ÏÂ²»µ½7¸öÐ¡Ê±£¨³ýÈ¥³Ô·¹Ë¯¾õµÄÊ±¼ä£©
-¶øÎÒ£¬Ò»¸ö´ÓÎ´×ö¹ýÇ°¶ËµÄGirlÐèÒªÍê³ÉÒ»¸ö´¿HTMLÒ³ÃæºÍCSSÒ³Ãæ¡£
-¶àËµÒÑÊÇÍ½ÀÍ£¬ÏÂÃæ¾ÍÊÇ¼ûÖ¤Ææ¼£µÄÊ±ºò¡£
+çŽ°åœ¨ç¦»æˆ‘äº¤ä½œä¸šåªå‰©ä¸‹ä¸åˆ°7ä¸ªå°æ—¶ï¼ˆé™¤åŽ»åƒé¥­ç¡è§‰çš„æ—¶é—´ï¼‰
+è€Œæˆ‘ï¼Œä¸€ä¸ªä»Žæœªåšè¿‡å‰ç«¯çš„Girléœ€è¦å®Œæˆä¸€ä¸ªçº¯HTMLé¡µé¢å’ŒCSSé¡µé¢ã€‚
+å¤šè¯´å·²æ˜¯å¾’åŠ³ï¼Œä¸‹é¢å°±æ˜¯è§è¯å¥‡è¿¹çš„æ—¶å€™ã€‚
 
-Ò»¡¢Ê¹ÓÃ´¿HTMLÒ³ÃæÍê³ÉÒ»¸ö¿¼ÊÔÒ³Ãæ£º
-£¨1£©ÐèÒªÒ»¸öÔÚÏß±à¼­²¢ÄÜÊµÊ±Ô¤ÀÀµÄ¹¤¾ß¡ª¡ªhttp://runjs.cn/code £¨¿ÉÒÔ×Ô¶¯²¹È«°¡£¬666£©
-£¨2£©´ò¿ªW3C£¬°´ÐèËÑË÷¡£
+ä¸€ã€ä½¿ç”¨çº¯HTMLé¡µé¢å®Œæˆä¸€ä¸ªè€ƒè¯•é¡µé¢ï¼š
+ï¼ˆ1ï¼‰éœ€è¦ä¸€ä¸ªåœ¨çº¿ç¼–è¾‘å¹¶èƒ½å®žæ—¶é¢„è§ˆçš„å·¥å…·â€”â€”http://runjs.cn/code ï¼ˆå¯ä»¥è‡ªåŠ¨è¡¥å…¨å•Šï¼Œ666ï¼‰
+ï¼ˆ2ï¼‰æ‰“å¼€W3Cï¼ŒæŒ‰éœ€æœç´¢ã€‚
 
-1¡¢HTML±êÌâ
-±êÌâ£¨Heading£©ÊÇÍ¨¹ý <h1> - <h6> µÈ±êÇ©½øÐÐ¶¨ÒåµÄ¡£
-<h1> ¶¨Òå×î´óµÄ±êÌâ¡£<h6> ¶¨Òå×îÐ¡µÄ±êÌâ¡£
+1ã€HTMLæ ‡é¢˜
+æ ‡é¢˜ï¼ˆHeadingï¼‰æ˜¯é€šè¿‡ <h1> - <h6> ç­‰æ ‡ç­¾è¿›è¡Œå®šä¹‰çš„ã€‚
+<h1> å®šä¹‰æœ€å¤§çš„æ ‡é¢˜ã€‚<h6> å®šä¹‰æœ€å°çš„æ ‡é¢˜ã€‚
 Ex: <h1>This is a heading</h1>
 
-2¡¢»»ÐÐ·û
-¶ÎÂäÊÇÍ¨¹ý <p> ±êÇ©¶¨ÒåµÄ¡£
-Èç¹ûÄúÏ£ÍûÔÚ²»²úÉúÒ»¸öÐÂ¶ÎÂäµÄÇé¿öÏÂ½øÐÐ»»ÐÐ£¨ÐÂÐÐ£©£¬ÇëÊ¹ÓÃ <br /> ±êÇ©£º
+2ã€æ¢è¡Œç¬¦
+æ®µè½æ˜¯é€šè¿‡ <p> æ ‡ç­¾å®šä¹‰çš„ã€‚
+å¦‚æžœæ‚¨å¸Œæœ›åœ¨ä¸äº§ç”Ÿä¸€ä¸ªæ–°æ®µè½çš„æƒ…å†µä¸‹è¿›è¡Œæ¢è¡Œï¼ˆæ–°è¡Œï¼‰ï¼Œè¯·ä½¿ç”¨ <br /> æ ‡ç­¾ï¼š
 
-3¡¢txt¿ò¿ò
+3ã€txtæ¡†æ¡†
 <input type="text" name="firstname">
 
-4¡¢TabÑùÊ½
-HTMLÌá¹©ÁË6ÖÖ¿Õ¸ñ£¨space entity£©£¬ËüÃÇÓµÓÐ²»Í¬µÄ¿í¶È¡£ 
-·Ç¶ÏÐÐ¿Õ¸ñ£¨&nbsp;£©ÊÇ³£¹æ¿Õ¸ñµÄ¿í¶È£¬¿ÉÔËÐÐÓÚËùÓÐÖ÷Á÷ä¯ÀÀÆ÷¡£
-ÆäËü¼¸ÖÖ¿Õ¸ñ£¨&ensp;¡¢&emsp;¡¢&thinsp;¡¢&zwnj;¡¢&zwj;£©ÔÚ²»Í¬ä¯ÀÀÆ÷ÖÐ¿í¶È¸÷Òì¡£
+4ã€Tabæ ·å¼
+HTMLæä¾›äº†6ç§ç©ºæ ¼ï¼ˆspace entityï¼‰ï¼Œå®ƒä»¬æ‹¥æœ‰ä¸åŒçš„å®½åº¦ã€‚ 
+éžæ–­è¡Œç©ºæ ¼ï¼ˆ&nbsp;ï¼‰æ˜¯å¸¸è§„ç©ºæ ¼çš„å®½åº¦ï¼Œå¯è¿è¡ŒäºŽæ‰€æœ‰ä¸»æµæµè§ˆå™¨ã€‚
+å…¶å®ƒå‡ ç§ç©ºæ ¼ï¼ˆ&ensp;ã€&emsp;ã€&thinsp;ã€&zwnj;ã€&zwj;ï¼‰åœ¨ä¸åŒæµè§ˆå™¨ä¸­å®½åº¦å„å¼‚ã€‚
 
-5¡¢µ¥Ñ¡°´Å¥£¨Ô²µã£©
+5ã€å•é€‰æŒ‰é’®ï¼ˆåœ†ç‚¹ï¼‰
 <input type="radio">
 
-6¡¢¶àÑ¡°´Å¥£¨·½¿ò£©
+6ã€å¤šé€‰æŒ‰é’®ï¼ˆæ–¹æ¡†ï¼‰
 <input type="checkbox" name="vehicle" value="Car">
 
-7¡¢ÎÄ±¾¿òÊÇtextarea
+7ã€æ–‡æœ¬æ¡†æ˜¯textarea
 
-11:49 2018/1/12  ¡¾¸ã¶¨HTML£¡¡¿
+11:49 2018/1/12  ã€æžå®šHTMLï¼ã€‘
 
-15:12 2018/1/12 ¡¾¿ªÊ¼×öCSS¡¿
-1¡¢ÐèÒª¿´Ò»ÏÂÊ²Ã´ÊÇCSS£¿
--CSS Ö¸²ãµþÑùÊ½±í (Cascading Style Sheets)
--ÑùÊ½¶¨ÒåÈçºÎÏÔÊ¾ HTML ÔªËØ
--ÑùÊ½Í¨³£´æ´¢ÔÚÑùÊ½±íÖÐ
--°ÑÑùÊ½Ìí¼Óµ½ HTML 4.0 ÖÐ£¬ÊÇÎªÁË½â¾öÄÚÈÝÓë±íÏÖ·ÖÀëµÄÎÊÌâ
--Íâ²¿ÑùÊ½±í¿ÉÒÔ¼«´óÌá¸ß¹¤×÷Ð§ÂÊ
--Íâ²¿ÑùÊ½±íÍ¨³£´æ´¢ÔÚ CSS ÎÄ¼þÖÐ
--¶à¸öÑùÊ½¶¨Òå¿É²ãµþÎªÒ»
+15:12 2018/1/12 ã€å¼€å§‹åšCSSã€‘
+1ã€éœ€è¦çœ‹ä¸€ä¸‹ä»€ä¹ˆæ˜¯CSSï¼Ÿ
+-CSS æŒ‡å±‚å æ ·å¼è¡¨ (Cascading Style Sheets)
+-æ ·å¼å®šä¹‰å¦‚ä½•æ˜¾ç¤º HTML å…ƒç´ 
+-æ ·å¼é€šå¸¸å­˜å‚¨åœ¨æ ·å¼è¡¨ä¸­
+-æŠŠæ ·å¼æ·»åŠ åˆ° HTML 4.0 ä¸­ï¼Œæ˜¯ä¸ºäº†è§£å†³å†…å®¹ä¸Žè¡¨çŽ°åˆ†ç¦»çš„é—®é¢˜
+-å¤–éƒ¨æ ·å¼è¡¨å¯ä»¥æžå¤§æé«˜å·¥ä½œæ•ˆçŽ‡
+-å¤–éƒ¨æ ·å¼è¡¨é€šå¸¸å­˜å‚¨åœ¨ CSS æ–‡ä»¶ä¸­
+-å¤šä¸ªæ ·å¼å®šä¹‰å¯å±‚å ä¸ºä¸€
 
-2¡¢·ÖÎöÒ»ÏÂ×÷ÒµÖÐËùÐèÒªÓÃµ½µÄCSS¼¼Êõ£º
-µÚÒ»ÐÐ±êÌâ¾ÓÖÐ£¬ÕÒÒ»ÏÂ¾ÓÖÐµÄ´úÂë¡£
-µÚ¶þÐÐÊÇÒ»ÐÐÈýÁÐµÄ²¼¾Ö¡£
-µÚÈýÐÐÊÇÒ»ÐÐ£¬±³¾°ÑÕÉ«¼ÓÉî¡£
-µÚËÄÐÐÊÇÒ»ÁÐ£¬µ«ÊÇÒªÉèÖÃÒ»¸ö×ó±ß¾à¡£
-µÚÎåÐÐÊÇÁ½ÁÐ£¬ÓÐ×ó±ß¾à¡£²¢ÇÒµÚÒ»ÁÐÒªÔÙ·ÖÎªÈýÁÐ¡£
-µÚÆßÐÐÍ¬ËÄ¡£
-µÚ°ËÐÐÍ¬Îå¡£
-µÚ¶þÈýËÄ²¿·Ö¶¼¿ÉÒÔÃ¿ÐÐÊÇÒ»ÐÐ£¬×¢Òâ×ó±ß¾à¡£
-µÚËÄ²¿·ÖÓÐ¶Ô´íµÄ±êÊ¶ÐèÒªÕÒÒ»ÏÂµ÷Õû×ÖÌåÑÕÉ«µÄ´úÂë¡£
-µÚÎåÌâµÄÎÄ±¾¿òÐèÒªÉèÖÃÒ»ÏÂ¿í³¤¡£
-×îºóÒ»¸ö¼ÆËã·ÖÊýÐèÒª°ÑButtonµÄÑÕÉ«¸ÄÒ»ÏÂ¡£
-
-
-
-¡¾Ô´´úÂëÈçÏÂ£º¡¿
-
-
-<!-- 
-Author Kata
-Email  lilylee_1213@foxmail.com
-Time   2018/1/12
--->
-
-
-<h1>Í³Ò»½¨Ä£ÓïÑÔÀíÂÛ²âÊÔ</h1>
-
-<p>¿¼ÊÔ¿ÆÄ¿£ºÍ³Ò»½¨Ä£ÓïÑÔ<br />
-Ê±¼ä£º100·ÖÖÓ<br />
-µÃ·Ö£º<br />
-°à¼¶£¨±ØÌî£©£º<input type="text" name="firstname"><br />
-Ñ§ºÅ£¨±ØÌî£©£º<input type="text" name="firstname"><br />
-ÐÕÃû£¨±ØÌî£©£º<input type="text" name="firstname"><br /></p>
-
-<h2>Ò»¡¢Ìî¿ÕÌâ£¨Ã¿Ìâ5·Ö£¬¹²20·Ö£©</h2>
-<p>&nbsp&nbsp1¡¢UMLµÄÖÐÎÄÈ«³ÆÊÇ£º<br />
-&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="firstname"><br />
-&nbsp&nbsp2¡¢¶ÔÏó×îÍ»³öµÄÌØÕ÷ÊÇ£º<br />
-&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="firstname">&nbsp<input type="text" name="firstname">&nbsp<input type="text" name="firstname"><br />
-</p>
-
-<h2>¶þ¡¢Ñ¡ÔñÌâ£¨Ã¿Ìâ10·Ö£¬¹²20·Ö£©</h2>
-<p>&nbsp&nbsp1.UMLÓëÈí¼þ¹¤³ÌµÄ¹ØÏµÊÇ£º<br />
-	&nbsp&nbsp&nbsp<input type="radio">£¨A£©UML¾ÍÊÇÈí¼þ¹¤³Ì<br />
-	&nbsp&nbsp&nbsp<input type="radio">£¨B£©UML²ÎÓëµ½Èí¼þ¹¤³ÌÖÐÈí¼þ¿ª·¢¹ý³ÌµÄ¼¸¸ö½×¶Î<br />
-	&nbsp&nbsp&nbsp<input type="radio">£¨C£©UMÓëÈí¼þ¹¤³ÌÎÞ¹Ø<br />
-	&nbsp&nbsp&nbsp<input type="radio">£¨D£©UML¾ÍÊÇÈí¼þ¹¤³Ì<br />
-	&nbsp&nbsp2.JavaÓïÑÔÖ§³Ö£º<br />
-	&nbsp&nbsp&nbsp<input type="radio">£¨A£©µ¥¼Ì³Ð<br />
-	&nbsp&nbsp&nbsp<input type="radio">£¨B£©¶à¼Ì³Ð<br />
-	&nbsp&nbsp&nbsp<input type="radio">£¨C£©µ¥¼Ì³ÐºÍ¶à¼Ì³Ð¶¼Ö§³Ö<br />
-	&nbsp&nbsp&nbsp<input type="radio">£¨D£©µ¥¼Ì³ÐºÍ¶à¼Ì³Ð¶¼²»Ö§³Ö<br />
-</p>
-
-
-	<h2>Èý¡¢¶àÏîÑ¡ÔñÌâ£¨Ã¿Ìâ10·Ö£¬¹²20·Ö£©</h2>
-<p>&nbsp&nbsp1.ÓÃÀýµÄÁ£¶È·ÖÎªÒÔÏÂÄÄÈýÖÖ£º<br />
-	&nbsp&nbsp&nbsp<input type="checkbox" name="vehicle" value="Car">£¨A£©¸ÅÊö¼¶<br />
-	&nbsp&nbsp&nbsp<input type="checkbox" name="vehicle" value="Car">£¨B£©ÐèÇó¼¶<br />
-	&nbsp&nbsp&nbsp<input type="checkbox" name="vehicle" value="Car">£¨C£©ÓÃ»§Ä¿±ê¼¶<br />
-	&nbsp&nbsp&nbsp<input type="checkbox" name="vehicle" value="Car">£¨D£©×Ó¹¦ÄÜ¼¶<br />
-	&nbsp&nbsp2.ÀàÍ¼ÓÉÒÔÏÂÄÄÈý²¿·Ö×é³É£º<br />
-	&nbsp&nbsp&nbsp<input type="checkbox" name="vehicle" value="Car">£¨A£©Ãû³Æ£¨Name£©<br />
-	&nbsp&nbsp&nbsp<input type="checkbox" name="vehicle" value="Car">£¨B£©ÊôÐÔ£¨Attribute£©<br />
-	&nbsp&nbsp&nbsp<input type="checkbox" name="vehicle" value="Car">£¨C£©²Ù×÷£¨Operation£©<br />
-	&nbsp&nbsp&nbsp<input type="checkbox" name="vehicle" value="Car">£¨D£©·½·¨£¨Function£©<br />
-</p>
-	
-	<h2>ËÄ¡¢ÅÐ¶ÏÌâ£¨Ã¿Ìâ10·Ö£¬¹²20·Ö£©</h2>
-
-	<p>&nbsp&nbsp1.ÓÃÀýÍ¼Ö»ÊÇÓÃÓÚºÍ¿Í»§½»Á÷ºÍ¹µÍ¨Çó¡£<input type="radio"><input type="radio"><br />
-		&nbsp&nbsp2.ÔÚ×´Ì¬Í¼ÖÐ£¬ÖÕÖ¹×´Ì¬ÔÚÒ»¸ö×´Ì¬Í¼ÖÐÔÊÐíÓÐÈÎÒâ¶à¸ö¡£<input type="radio"><input type="radio"><br /></p>
-
-
-		<h2>Îå¡¢¼ò´ðÌâ£¨Ã¿Ìâ20·Ö£¬¹²20·Ö£©</h2>
-<p>&nbsp&nbsp1.¼òÊöÊ²Ã´ÊÇÄ£ÐÍµÄ±íÏÖÐÎÊ½£¿¡£<textarea rows="3" cols="20"></textarea>
-</p>
-
-<input type="submit" value="¼ÆËã·ÖÊý">
-<hr>
-	
+2ã€åˆ†æžä¸€ä¸‹ä½œä¸šä¸­æ‰€éœ€è¦ç”¨åˆ°çš„CSSæŠ€æœ¯ï¼š
+ç¬¬ä¸€è¡Œæ ‡é¢˜å±…ä¸­ï¼Œæ‰¾ä¸€ä¸‹å±…ä¸­çš„ä»£ç ã€‚
+ç¬¬äºŒè¡Œæ˜¯ä¸€è¡Œä¸‰åˆ—çš„å¸ƒå±€ã€‚
+ç¬¬ä¸‰è¡Œæ˜¯ä¸€è¡Œï¼ŒèƒŒæ™¯é¢œè‰²åŠ æ·±ã€‚
+ç¬¬å››è¡Œæ˜¯ä¸€åˆ—ï¼Œä½†æ˜¯è¦è®¾ç½®ä¸€ä¸ªå·¦è¾¹è·ã€‚
+ç¬¬äº”è¡Œæ˜¯ä¸¤åˆ—ï¼Œæœ‰å·¦è¾¹è·ã€‚å¹¶ä¸”ç¬¬ä¸€åˆ—è¦å†åˆ†ä¸ºä¸‰åˆ—ã€‚
+ç¬¬ä¸ƒè¡ŒåŒå››ã€‚
+ç¬¬å…«è¡ŒåŒäº”ã€‚
+ç¬¬äºŒä¸‰å››éƒ¨åˆ†éƒ½å¯ä»¥æ¯è¡Œæ˜¯ä¸€è¡Œï¼Œæ³¨æ„å·¦è¾¹è·ã€‚
+ç¬¬å››éƒ¨åˆ†æœ‰å¯¹é”™çš„æ ‡è¯†éœ€è¦æ‰¾ä¸€ä¸‹è°ƒæ•´å­—ä½“é¢œè‰²çš„ä»£ç ã€‚
+ç¬¬äº”é¢˜çš„æ–‡æœ¬æ¡†éœ€è¦è®¾ç½®ä¸€ä¸‹å®½é•¿ã€‚
+æœ€åŽä¸€ä¸ªè®¡ç®—åˆ†æ•°éœ€è¦æŠŠButtonçš„é¢œè‰²æ”¹ä¸€ä¸‹ã€‚

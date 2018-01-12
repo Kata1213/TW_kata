@@ -1,8 +1,5 @@
 CSS初体验
 =========
-
-好吧，说是初体验，其实是准备速成一波，完成作业。
-
 #1、什么是CSS？
 CSS 指层叠样式表 (Cascading Style Sheets)
 
