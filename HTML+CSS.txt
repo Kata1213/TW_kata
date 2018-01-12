@@ -1,0 +1,132 @@
+10:04 2018/1/12
+现在离我交作业只剩下不到7个小时（除去吃饭睡觉的时间）
+而我，一个从未做过前端的Girl需要完成一个纯HTML页面和CSS页面。
+多说已是徒劳，下面就是见证奇迹的时候。
+
+一、使用纯HTML页面完成一个考试页面：
+（1）需要一个在线编辑并能实时预览的工具——http://runjs.cn/code （可以自动补全啊，666）
+（2）打开W3C，按需搜索。
+
+1、HTML标题
+标题（Heading）是通过 <h1> - <h6> 等标签进行定义的。
+<h1> 定义最大的标题。<h6> 定义最小的标题。
+Ex: <h1>This is a heading</h1>
+
+2、换行符
+段落是通过 <p> 标签定义的。
+如果您希望在不产生一个新段落的情况下进行换行（新行），请使用 <br /> 标签：
+
+3、txt框框
+<input type="text" name="firstname">
+
+4、Tab样式
+HTML提供了6种空格（space entity），它们拥有不同的宽度。 
+非断行空格（&nbsp;）是常规空格的宽度，可运行于所有主流浏览器。
+其它几种空格（&ensp;、&emsp;、&thinsp;、&zwnj;、&zwj;）在不同浏览器中宽度各异。
+
+5、单选按钮（圆点）
+<input type="radio">
+
+6、多选按钮（方框）
+<input type="checkbox" name="vehicle" value="Car">
+
+7、文本框是textarea
+
+11:49 2018/1/12  【搞定HTML！】
+
+15:12 2018/1/12 【开始做CSS】
+1、需要看一下什么是CSS？
+-CSS 指层叠样式表 (Cascading Style Sheets)
+-样式定义如何显示 HTML 元素
+-样式通常存储在样式表中
+-把样式添加到 HTML 4.0 中，是为了解决内容与表现分离的问题
+-外部样式表可以极大提高工作效率
+-外部样式表通常存储在 CSS 文件中
+-多个样式定义可层叠为一
+
+2、分析一下作业中所需要用到的CSS技术：
+第一行标题居中，找一下居中的代码。
+第二行是一行三列的布局。
+第三行是一行，背景颜色加深。
+第四行是一列，但是要设置一个左边距。
+第五行是两列，有左边距。并且第一列要再分为三列。
+第七行同四。
+第八行同五。
+第二三四部分都可以每行是一行，注意左边距。
+第四部分有对错的标识需要找一下调整字体颜色的代码。
+第五题的文本框需要设置一下宽长。
+最后一个计算分数需要把Button的颜色改一下。
+
+3、查询过的信息记录：
+
+
+
+
+
+
+【源代码如下：】
+
+
+<!-- 
+Author Kata
+Email  lilylee_1213@foxmail.com
+Time   2018/1/12
+-->
+
+
+<h1>统一建模语言理论测试</h1>
+
+<p>考试科目：统一建模语言<br />
+时间：100分钟<br />
+得分：<br />
+班级（必填）：<input type="text" name="firstname"><br />
+学号（必填）：<input type="text" name="firstname"><br />
+姓名（必填）：<input type="text" name="firstname"><br /></p>
+
+<h2>一、填空题（每题5分，共20分）</h2>
+<p>&nbsp&nbsp1、UML的中文全称是：<br />
+&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="firstname"><br />
+&nbsp&nbsp2、对象最突出的特征是：<br />
+&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="firstname">&nbsp<input type="text" name="firstname">&nbsp<input type="text" name="firstname"><br />
+</p>
+
+<h2>二、选择题（每题10分，共20分）</h2>
+<p>&nbsp&nbsp1.UML与软件工程的关系是：<br />
+	&nbsp&nbsp&nbsp<input type="radio">（A）UML就是软件工程<br />
+	&nbsp&nbsp&nbsp<input type="radio">（B）UML参与到软件工程中软件开发过程的几个阶段<br />
+	&nbsp&nbsp&nbsp<input type="radio">（C）UM与软件工程无关<br />
+	&nbsp&nbsp&nbsp<input type="radio">（D）UML就是软件工程<br />
+	&nbsp&nbsp2.Java语言支持：<br />
+	&nbsp&nbsp&nbsp<input type="radio">（A）单继承<br />
+	&nbsp&nbsp&nbsp<input type="radio">（B）多继承<br />
+	&nbsp&nbsp&nbsp<input type="radio">（C）单继承和多继承都支持<br />
+	&nbsp&nbsp&nbsp<input type="radio">（D）单继承和多继承都不支持<br />
+</p>
+
+
+	<h2>三、多项选择题（每题10分，共20分）</h2>
+<p>&nbsp&nbsp1.用例的粒度分为以下哪三种：<br />
+	&nbsp&nbsp&nbsp<input type="checkbox" name="vehicle" value="Car">（A）概述级<br />
+	&nbsp&nbsp&nbsp<input type="checkbox" name="vehicle" value="Car">（B）需求级<br />
+	&nbsp&nbsp&nbsp<input type="checkbox" name="vehicle" value="Car">（C）用户目标级<br />
+	&nbsp&nbsp&nbsp<input type="checkbox" name="vehicle" value="Car">（D）子功能级<br />
+	&nbsp&nbsp2.类图由以下哪三部分组成：<br />
+	&nbsp&nbsp&nbsp<input type="checkbox" name="vehicle" value="Car">（A）名称（Name）<br />
+	&nbsp&nbsp&nbsp<input type="checkbox" name="vehicle" value="Car">（B）属性（Attribute）<br />
+	&nbsp&nbsp&nbsp<input type="checkbox" name="vehicle" value="Car">（C）操作（Operation）<br />
+	&nbsp&nbsp&nbsp<input type="checkbox" name="vehicle" value="Car">（D）方法（Function）<br />
+</p>
+	
+	<h2>四、判断题（每题10分，共20分）</h2>
+
+	<p>&nbsp&nbsp1.用例图只是用于和客户交流和沟通求。<input type="radio"><input type="radio"><br />
+		&nbsp&nbsp2.在状态图中，终止状态在一个状态图中允许有任意多个。<input type="radio"><input type="radio"><br /></p>
+
+
+		<h2>五、简答题（每题20分，共20分）</h2>
+<p>&nbsp&nbsp1.简述什么是模型的表现形式？。<textarea rows="3" cols="20"></textarea>
+</p>
+
+<input type="submit" value="计算分数">
+<hr>
+	
